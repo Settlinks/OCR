@@ -1,0 +1,22 @@
+        <section class="mb-12 bg-white p-8 rounded-xl shadow-sm border border-slate-200">
+            <div class="flex items-center mb-6">
+                <div class="bg-indigo-600 text-white w-8 h-8 rounded-full flex items-center justify-center mr-3 font-bold">2</div>
+                <h2 class="text-xl font-bold">The User Interface (Frontend)</h2>
+            </div>
+
+            <div id="drop-zone" class="border-2 border-dashed border-slate-300 rounded-lg p-12 text-center hover:border-indigo-400 transition-colors cursor-pointer bg-slate-50">
+                <i class="fa-solid fa-cloud-arrow-up text-4xl text-slate-400 mb-4"></i>
+                <p class="text-slate-600">Drag and drop your document here or <span class="text-indigo-600 font-semibold">click to browse</span></p>
+                <input type="file" id="file-input" class="hidden" accept="image/*,application/pdf">
+            </div>
+
+            <div id="loading" class="hidden mt-6 text-center">
+                <div class="inline-block animate-spin rounded-full h-8 w-8 border-4 border-indigo-600 border-t-transparent"></div>
+                <p class="text-sm mt-2 text-slate-500 italic">Mindee AI is analyzing your document...</p>
+            </div>
+
+            <div id="result-container" class="hidden mt-8">
+                <h3 class="text-sm font-bold text-slate-400 uppercase tracking-widest mb-3">Analysis Results</h3>
+                <pre id="output" class="bg-slate-900 text-green-400 p-6 rounded-lg overflow-x-auto text-xs leading-relaxed"></pre>
+            </div>
+        </section>
