@@ -2,7 +2,7 @@ import * as mindee from "mindee";
 // If you're on CommonJS:
 // const mindee = require("mindee");
 
-const apiKey = "MY_API_KEY";
+const apiKey = "md_HtmpdWqcclVleRpGg7fdbpZ6ELtzNvKgo743bYRiZYk";
 const filePath = "/path/to/the/file.ext";
 const modelId = "768bc422-c507-4996-8781-58537bd98bcc";
 
